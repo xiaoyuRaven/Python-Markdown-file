@@ -6,7 +6,7 @@
 print("hello Python world!")
 ```
 
-![屏幕截图 2024-09-18 212237](https://github.com/user-attachments/assets/99a9f2a7-c325-44f5-b875-acbc2cfbe24f)
+输出结果如下：<br>![屏幕截图 2024-09-18 212237](https://github.com/user-attachments/assets/99a9f2a7-c325-44f5-b875-acbc2cfbe24f)
 
 
 运行文件 hello world.py 时,末尾的 `.py `指出这是一个 Python程序，因此编辑器将使用 Python 解释器来运行它。**Python解释器**读取整个程序，确定其中每单词的含义。例如，看到后面跟着圆括号的单词 print 时解释器就将圆括号中的内容打印到屏幕。<br>在编写程序时，编辑器会以各种方式突出程序的不同部分，将程序的不同部分显示位不同的颜色，这种功能称为**语法高亮**。
@@ -22,7 +22,7 @@ message = "hello python world!"
 print(message)
 ```
 
-输出结果如下：<br>![image-20240918213420862](python基础语法1.assets/image-20240918213420862.png)
+输出结果如下：<br>![屏幕截图 2024-09-18 212237](https://github.com/user-attachments/assets/99a9f2a7-c325-44f5-b875-acbc2cfbe24f)
 
 变量`message` 指向文本`hello python world!`。<br>添加变量导致 Python解释器需要做更多工作。处理第一行代码时，它将变量 message 与文本"hello python world!"关联起来;处理第二行代码时，它将与变量 message 关联的值打印到屏幕。<br>
 
@@ -55,9 +55,10 @@ print(message)
 
 ## 4. 使用变量时避免命名错误
 
-输入一段错误的程序代码：<br>![image-20240918224124679](python基础语法1.assets/image-20240918224124679.png)
+输入一段错误的程序代码：<br>![屏幕截图 2024-09-18 212237](https://github.com/user-attachments/assets/99a9f2a7-c325-44f5-b875-acbc2cfbe24f)
 
-程序存在错误时 Python 解释器将竭尽所能的帮你找出问题，程序无法成功运行时，解释器将提供一个traceback。traceback 是一条记录，指出了解释器城市运行代码时，在什么地方陷人了困境。<br>名称错误意味着两种情况：要么是使用变量前忘记给变量赋值，要么是输入变量名时拼写不正确。<br>在这个示例中，第二行的变量 message 遗漏了字母 s 。Python解释器不会对代码做拼写检查，只要求变量名的拼写一致。如果在代码的其它地方也将 `message` 错误的拼写成 `mesage` ，程序也能成功运行，实例如下：<br>![image-20240918225849729](python基础语法1.assets/image-20240918225849729.png)
+程序存在错误时 Python 解释器将竭尽所能的帮你找出问题，程序无法成功运行时，解释器将提供一个traceback。traceback 是一条记录，指出了解释器城市运行代码时，在什么地方陷人了困境。<br>名称错误意味着两种情况：要么是使用变量前忘记给变量赋值，要么是输入变量名时拼写不正确。<br>在这个示例中，第二行的变量 message 遗漏了字母 s 。Python解释器不会对代码做拼写检查，只要求变量名的拼写一致。如果在代码的其它地方也将 `message` 错误的拼写成 `mesage` ，程序也能成功运行，实例如下：<br>![屏幕截图 2024-09-18 225843](https://github.com/user-attachments/assets/2ead0aa3-7bac-44a5-8185-de598a7b2ea3)
+
 
 编程语言对变量名要求严格，但并不关心拼写是否正确。因此，创建变量名和编写代码时，无需考虑英语中的拼写和语法规则。
 

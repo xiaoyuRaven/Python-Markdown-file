@@ -35,7 +35,7 @@ print(message)
 
 ```
 
-输出结果如下：<br>![image-20240918215102425](python基础语法1.assets/image-20240918215102425.png)
+输出结果如下：<br>![屏幕截图 2024-09-18 212237](https://github.com/user-attachments/assets/99a9f2a7-c325-44f5-b875-acbc2cfbe24f)
 
 ## 3. 变量的命名和使用
 
@@ -55,7 +55,9 @@ print(message)
 
 ## 4. 使用变量时避免命名错误
 
-输入一段错误的程序代码：<br>![屏幕截图 2024-09-18 212237](https://github.com/user-attachments/assets/99a9f2a7-c325-44f5-b875-acbc2cfbe24f)
+输入一段错误的程序代码：<br>![屏幕截图 2024-09-18 224109](https://github.com/user-attachments/assets/9df9be88-5de3-4986-9516-73aa75567c6a)
+
+
 
 程序存在错误时 Python 解释器将竭尽所能的帮你找出问题，程序无法成功运行时，解释器将提供一个traceback。traceback 是一条记录，指出了解释器城市运行代码时，在什么地方陷人了困境。<br>名称错误意味着两种情况：要么是使用变量前忘记给变量赋值，要么是输入变量名时拼写不正确。<br>在这个示例中，第二行的变量 message 遗漏了字母 s 。Python解释器不会对代码做拼写检查，只要求变量名的拼写一致。如果在代码的其它地方也将 `message` 错误的拼写成 `mesage` ，程序也能成功运行，实例如下：<br>![屏幕截图 2024-09-18 225843](https://github.com/user-attachments/assets/2ead0aa3-7bac-44a5-8185-de598a7b2ea3)
 

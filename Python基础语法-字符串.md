@@ -26,7 +26,8 @@ name = "ada lovelace"
 print(name.title())
 ```
 
-运行输出如下：<br>![image-20241006161331168](https://github.com/user-attachments/assets/634a77e1-7dc5-41be-8d4c-16128ddeab98)
+运行输出如下：<br>![屏幕截图 2024-09-29 191019](https://github.com/user-attachments/assets/3e733d0d-61a9-4995-806b-f6bfa8e56ea0)
+
 
 
 在函数调用 `print()`中，方法`title()`出现在变量`name`的后面。**方法**是 Python 可对数据执行的操作。在 `name.title()`中，name 后面的`.` 让 Python 对变量 name 执行方法 title() 指定的操作。每个方法的后面都跟着一对圆括号，这是因为方法通常需要额外的信息来完成其工作。这种信息在圆括号内提供。函数 title() 不需要额外的信息，因此它后面的圆括号是空的。
